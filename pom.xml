@@ -33,36 +33,12 @@
             <version>1.2.56</version>
         </dependency>
     </dependencies>
-    <!-- 使用Nexus代理进行依赖管理 -->
-	<repositories>
-		<repository>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<id>nexus</id>
-			<name>Nexus</name>
-			<url>http://117.48.208.45:8081/repository/maven-central/</url>
-		</repository>
-
-	</repositories>
-
-	<!-- 使用Nexus代理进行 插件管理 -->
-	<pluginRepositories>
-		<pluginRepository>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<id>nexus</id>
-			<name>Nexus</name>
-			<url>http://117.48.208.45:8081/repository/maven-central/</url>
-		</pluginRepository>
-	</pluginRepositories>
+    <repositories>
+      <repository>
+        <id>central</id>
+        <url>http://117.48.208.45:8081/repository/maven-public/</url>
+      </repository>
+    </repositories>
     <distributionManagement>
   		<repository>
  			<id>user-release</id>
@@ -74,5 +50,5 @@
   			<name>user snapshots version</name>
   			<url>http://localhost:8081/repository/maven-snapshots/</url>
   		</snapshotRepository>
-       </distributionManagement>
+      </distributionManagement>
 </project>
