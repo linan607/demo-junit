@@ -44,7 +44,7 @@
 			</releases>
 			<id>nexus</id>
 			<name>Nexus</name>
-			<url>http://localhost:8081/repository/maven-central/</url>
+			<url>http://117.48.208.45:8081/repository/maven-public/</url>
 		</repository>
 
 	</repositories>
@@ -60,7 +60,7 @@
 			</snapshots>
 			<id>nexus</id>
 			<name>Nexus</name>
-			<url>http://localhost:8081/repository/maven-central/</url>
+			<url>http://117.48.208.45:8081/repository/maven-public/</url>
 		</pluginRepository>
 	</pluginRepositories>
     <distributionManagement>
