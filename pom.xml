@@ -44,7 +44,7 @@
     <repositories>
       <repository>
         <id>central</id>
-        <url>http://localhost:8081/repository/maven-public/</url>
+        <url>http://localhost:8081/repository/maven-central/</url>
       </repository>
     </repositories>
     <distributionManagement>
