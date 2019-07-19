@@ -33,12 +33,7 @@
             <version>1.2.56</version>
         </dependency>
     </dependencies>
-    <repositories>
-      <repository>
-        <id>central</id>
-        <url>http://localhost:8081/repository/maven-central/</url>
-      </repository>
-    </repositories>
+    
     <distributionManagement>
   		<repository>
  			<id>user-release</id>
